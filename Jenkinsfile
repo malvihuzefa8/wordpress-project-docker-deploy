@@ -6,6 +6,7 @@ pipeline {
         stage('Clean Workspace') {
             steps {
                 cleanWs()
+                checkout scm   // ← ye zaroori hai, code wapas clone karega
             }
         }
 
