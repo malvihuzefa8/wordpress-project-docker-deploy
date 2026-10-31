@@ -1,0 +1,66 @@
+/* Theme Activation Box CSS */
+.notice.notice-success.is-dismissible.getting_started {
+    background: #2c94ff;
+    text-align: center;
+    padding: 25px 15em;
+}
+.notice-content h2,
+.wrapper-info h2 {
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+}
+.notice-content p,
+.wrapper-info p {
+    color: #fff;
+}
+.notice-content .get_btn,
+.theme-offer .button-large {
+    background-color: #fff!important;
+    border-color: #fff;
+    color: #2c94ff;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 0 10px 20px 0 rgb(94 44 237 / 20%);
+}
+.notice-content .get_btn:hover,
+.theme-offer .button-large:hover{
+    background: transparent;
+    color: #000!important;
+    border-color: #fff !important;
+}
+
+/* Demo Importer CSS */
+.wrapper-info {
+    text-align: center;
+    max-width: 650px;
+    margin: 35px auto;
+    background: #2c94ff;
+    opacity: 0.9;
+    padding: 5em;
+    box-shadow: 0 10px 20px 0 rgb(94 44 237 / 20%);
+    color: #fff;
+    font-size: 15px;
+}
+span.version {
+    font-size: 15px;
+    font-weight: normal;
+}
+.wrapper-info p{
+    font-size: 15px;
+}
+.theme-offer p {
+    color: red;
+    font-size: 12px;
+    padding: 0 5em;
+    margin: 30px 0;
+}
+.success {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+input.button.button-primary.button-large{
+    color: #2c94ff !important;
+}

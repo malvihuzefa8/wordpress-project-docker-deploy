@@ -1,0 +1,114 @@
+/*
+Theme Name: Computer Repair Services Pro
+Theme URI:https://themagnifico.net/demo/computer-repair-services/
+Author: Themagnifico
+Author URI: https://www.themagnifico.net/
+Description: Introducing our Computer WordPress Theme! This theme is perfect for anyone who is looking to create a website for their repair business. It comes with 13 different sections that are perfect for showcasing all of the services that you offer. Whether you are a computer repair shop, laptop repair shop, or any other type of repair shop, this theme has everything that you need to make your business successful.
+Version: 0.0.2
+Requires at least: 5.0
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: computer-repair-services-pro
+Tags: one-column, right-sidebar, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments
+
+Computer Repair Services Pro WordPress Theme has been created by Themagnifico(Themagnifico.net), 2018.
+Computer Repair Services Pro WordPress Theme is released under the terms of GNU GPL
+
+/* Basic Style */
+
+.bypostauthor {
+  font-weight: 600;
+}
+.wpcf7-spinner {
+  display: none;
+}
+/*.sticky{
+    position: unset;
+}*/
+/*--------- Site Loader --------------*/
+
+    .preloader{
+      display: flex;
+      background: #fc7c15;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      position: fixed;
+      z-index: 99999;
+    }
+    .preloader .loading-dot{
+        width: 15px;
+        height: 15px;
+        margin: auto;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        box-shadow: 0px 40px 0px 0px #fff,0px -40px 0px 0px #fff,40px 0px 0px 0px #fff,-40px 0px 0px 0px #fff,
+                    40px 40px 0px 0px #fff,-40px -40px 0px 0px #fff,40px -40px 0px 0px #fff,-40px 40px 0px 0px #fff;
+        animation: load 3s infinite linear;
+    }
+    @keyframes load{
+        0% {
+            transform: rotate(0deg); 
+            box-shadow: 0px 40px 0px 0px #fff,0px -40px 0px 0px #fff,40px 0px 0px 0px #fff,-40px 0px 0px 0px #fff,
+                        40px 40px 0px 0px #fff,-40px -40px 0px 0px #fff,40px -40px 0px 0px #fff,-40px 40px 0px 0px #fff;
+        }
+        25%{
+            box-shadow: 0px 40px 0px 0px #fff,0px -40px 0px 0px #fff,40px 0px 0px 0px #fff,-40px 0px 0px 0px #fff,
+                        -40px -40px 0px 0px #fff,40px 40px 0px 0px #fff,-40px 40px 0px 0px #fff,40px -40px 0px 0px #fff;
+        }
+        50%{
+            box-shadow: 0px -40px 0px 0px #fff,0px 40px 0px 0px #fff,-40px 0px 0px 0px #fff,40px 0px 0px 0px #fff,
+                        -40px -40px 0px 0px #fff,40px 40px 0px 0px #fff,-40px 40px 0px 0px #fff,40px -40px 0px 0px #fff;
+        }
+        70%{
+            box-shadow: 0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,
+                        0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff;
+        }
+        75%{
+            width:10px;
+            height:10px;
+            box-shadow: 0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,
+                        0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff;
+        }
+        80%{
+            background-color: #fff;
+            width:40px;
+            height:40px;
+            transform: rotate(360deg); 
+            box-shadow: 0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,
+                        0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff;
+        }
+        85%{
+            background-color: #fff; 
+            width:40px;
+            height:40px;
+            transform: rotate(360deg);
+            box-shadow: 0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,
+                        0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff;
+        }
+        90%{
+            background-color: #fff; 
+            width:10px;
+            height:10px;
+            transform: rotate(360deg); 
+            box-shadow: 0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,
+                        0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff,0px 0px 0px 0px #fff;
+        }
+        95%{
+            box-shadow: 0px 40px 0px 0px #fff,0px -40px 0px 0px #fff,40px 0px 0px 0px #fff,-40px 0px 0px 0px #fff,
+                        40px 40px 0px 0px #fff,-40px -40px 0px 0px #fff,40px -40px 0px 0px #fff,-40px 40px 0px 0px #fff;
+        }
+        100%{
+            transform: rotate(360deg);
+            box-shadow: 0px 40px 0px 0px #fff,0px -40px 0px 0px #fff,40px 0px 0px 0px #fff,-40px 0px 0px 0px #fff,
+                        40px 40px 0px 0px #fff,-40px -40px 0px 0px #fff,40px -40px 0px 0px #fff,-40px 40px 0px 0px #fff;
+        }
+    }
