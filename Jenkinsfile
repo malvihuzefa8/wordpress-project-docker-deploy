@@ -3,9 +3,9 @@ pipeline {
 
     stages {
 
-        stage('Git Clone') {
+        stage('Clean Workspace') {
             steps {
-                git branch: 'master', url: 'https://github.com/malvihuzefa8/wordpress-project-docker-deploy.git'
+                cleanWs()
             }
         }
 
